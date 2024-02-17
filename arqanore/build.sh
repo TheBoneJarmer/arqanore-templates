@@ -1,3 +1,3 @@
 #!/bin/bash
 
-g++ -o ./app ./src/main.cpp -larqanore -Wl,-rpath='$ORIGIN:$ORIGIN/lib'
+g++ -o ./app ./src/main.cpp -larqanore -Iinclude/ -Llib -Wl,-rpath='$ORIGIN:$ORIGIN/lib'
